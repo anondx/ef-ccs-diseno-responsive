@@ -120,6 +120,17 @@ footer{
 	margin: 10px;
 }
 
+#galeria div:nth-child(1){
+	filter: blur(10px) 
+}
+
+#galeria div:nth-child(3){
+	filter: sepia(90%) 
+}
+
+#galeria div:nth-child(even){
+	filter: grayscale(100%) 
+}
 
 @media (min-width: 900px) {
 
