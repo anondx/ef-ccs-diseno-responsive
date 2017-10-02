@@ -12,7 +12,7 @@ body{
 img{
 	display: block;
 	margin: 0 auto;
-	width: 100%;
+	max-width: 100%;
 	box-shadow: 2px 2px 2px #02010a;
 }
 
@@ -47,6 +47,17 @@ img{
 
 #cabecera a.active {
 	text-decoration: none;
+}
+
+/**********************************/
+
+footer{
+	border: 0px 0px 10px 10px;
+	background-color: #C6d5c5;
+
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
 }
 
 /**********************************/
