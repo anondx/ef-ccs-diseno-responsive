@@ -105,6 +105,22 @@ footer{
   transform: translate(20px, -5px);
 }
 
+
+/**********************************/
+
+#galeria{
+	background-color: #d5c75f;
+	border: solid 1px black;
+
+	display: flex;
+	flex-direction: column;
+}
+
+#galeria div{
+	margin: 10px;
+}
+
+
 @media (min-width: 900px) {
 
 	#contenido{
@@ -124,6 +140,16 @@ footer{
 	#imagenes-secundarias{
 		flex-direction: row;
 		justify-content: space-around;
+	}
+
+	#galeria{
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+
+	#galeria div{
+		width: 31%;
 	}
 
 }
