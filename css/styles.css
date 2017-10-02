@@ -1,5 +1,53 @@
 /** por defecto los estilos se aplican a pantallas menores a 900px */
 
+* {
+	box-sizing: border-box;
+}
+
 body{
 	font-family: 'Dancing Script', cursive;
+	background-color: #02010a;
+}
+
+img{
+	display: block;
+	margin: 0 auto;
+	width: 100%;
+	box-shadow: 2px 2px 2px #02010a;
+}
+
+.contenido{
+	width: 100%;
+	margin: 0px auto;
+}
+
+#cabecera{
+	background-color: #5b7989;
+	border-radius: 10px 10px 0px 0px;
+	padding: 10px;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#cabecera h1{
+	color: white;
+	text-align: center;
+	margin-top: 0;
+}
+
+#cabecera a{
+	color: white
+}
+
+#cabecera a.active {
+	text-decoration: none;
+}
+
+
+
+
+@media (min-width: 900px) {
+
 }
