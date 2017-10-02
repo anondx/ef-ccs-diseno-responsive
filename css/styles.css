@@ -45,7 +45,10 @@ img{
 	text-decoration: none;
 }
 
-
+#hero-section{
+	padding: 20px 40px;
+	background-color: #82c3a6;
+}
 
 
 @media (min-width: 900px) {
