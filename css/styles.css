@@ -16,10 +16,14 @@ img{
 	box-shadow: 2px 2px 2px #02010a;
 }
 
+/**********************************/
+
 .contenido{
 	width: 100%;
 	margin: 0px auto;
 }
+
+/**********************************/
 
 #cabecera{
 	background-color: #5b7989;
@@ -45,11 +49,49 @@ img{
 	text-decoration: none;
 }
 
-#hero-section{
+/**********************************/
+
+#imagen-central{
 	padding: 20px 40px;
 	background-color: #82c3a6;
 }
 
+#imagenes-secundarias{
+	background-color: #d5c75f;
+	border: solid 1px black;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#imagenes-secundarias img{
+	margin: 20px 40px;
+
+	transition:all 1s ease-out;
+	transform:rotate(0deg);
+}
+
+#imagenes-secundarias img:hover{
+	box-shadow-color: #82c3a6;
+	border: solid 2px black;
+}
+
+#imagenes-secundarias a p{
+	font-size: x-large;
+	font-weight: bolder;
+	text-align: center;
+	color: black;
+	text-decoration: underline;
+}
+
+#imagenes-secundarias #paisajes:hover{
+   transform:rotate(10deg);
+}
+
+#imagenes-secundarias #retratos:hover{
+  transform: translate(20px, -5px);
+}
 
 @media (min-width: 900px) {
 
